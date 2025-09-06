@@ -61,3 +61,64 @@ div[data-status="inactive"] {
   background-color: gray;
   color: white;
 }
+
+## Semantic HTML
+
+- Semantic HTML describes the meaning of elements to both the browser and developers.
+- It refers to using specific tags like `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, etc., to provide clearer structure and meaning to web content.
+- Helps define the type of content it contains, which improves **accessibility**.
+- Common semantic tags include:  
+  `heading`, `nav`, `section`, `form`, `summary`, `article`, `details`
+
+---
+
+## Web Accessibility
+
+- Web accessibility ensures that applications can be accessed by as many people as possible, including those with low vision or color blindness.
+- Achieved by:
+  - Using semantic HTML tags
+  - Maintaining correct HTML structure
+  - Using ARIA attributes like `aria-label`, `aria-role`, etc.
+
+---
+
+## Metadata
+
+- Metadata describes the content of the page.
+- Metadata does **not** appear visually on the page but is included in the page source.
+- Helps search engines understand the content of the page for better SEO.
+  
+### Important SEO-related Metadata Tags:
+- Meta title tag
+- Meta description tag
+- Headings
+- Semantic tags
+- Image alternative text (`alt` attribute)
+
+---
+
+## Iframe
+
+- An `<iframe>` is used to display one webpage inside another webpage.
+
+---
+
+## HTML Elements: Block vs Inline
+
+- **Block-level elements**  
+  - Occupy full width of their parent container by default.  
+  - Always start on a new line, pushing subsequent elements below.  
+  - Examples: `<div>`, `<p>`, `<h1> - <h6>`, `<section>`, `<article>`
+
+- **Inline elements**  
+  - Only take up as much width as their content requires.  
+  - Do not start on a new line; flow inline with text.  
+  - Examples: `<span>`, `<a>`, `<strong>`, `<input>`, `<img>`, `<label>`, `<button>`, `<select>`
+
+---
+
+## Synthetic Events
+
+- Synthetic Events in React are cross-browser wrappers around the browser's native events.
+- They provide a consistent interface for event handling across different browsers.
+
